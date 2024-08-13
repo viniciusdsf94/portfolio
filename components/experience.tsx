@@ -17,7 +17,7 @@ export default function Experience() {
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
-      <SectionHeading>My experience</SectionHeading>
+      <SectionHeading>Experiência Profissional</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
@@ -48,6 +48,24 @@ export default function Experience() {
               <p className="font-normal !mt-0">{item.location}</p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
+              </p>
+              <p className="!mt-2 !font-normal text-gray-700 dark:text-white/75">
+                {item.description2}
+              </p>
+              <p className="!mt-2 !font-normal text-gray-700 dark:text-white/75">
+                {item.description3}
+              </p>
+              <p className="!mt-2 !font-normal text-gray-700 dark:text-white/75">
+                {item.description4}
+              </p>
+              <p className="!mt-2 !font-normal text-gray-700 dark:text-white/75">
+                {item.description5}
+              </p>
+              <p className="!mt-2 !font-normal text-gray-700 dark:text-white/75">
+                {item.description6}
+              </p>
+              <p className="!mt-2 !font-normal text-gray-700 dark:text-white/75">
+                {item.description7}
               </p>
             </VerticalTimelineElement>
           </React.Fragment>
